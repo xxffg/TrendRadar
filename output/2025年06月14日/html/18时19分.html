@@ -1,0 +1,532 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 252</p><p>生成时间: 2025-06-14 18:19:47</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">美国 特朗普</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.78%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%EF%BC%9A%E6%97%A0%E7%BE%8E%E5%9B%BD%E8%AE%B8%E5%8F%AF+%E4%BB%A5%E8%A2%AD%E5%87%BB%E4%B8%8D%E4%BC%9A%E5%8F%91%E7%94%9F" target="_blank" class="news-link">伊朗：无美国许可 以袭击不会发生</a> [30] <font color='grey'>- 18时19分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749109" target="_blank" class="news-link">不只是降息！鲍威尔明年离职后，美联储“美元互换”会成特朗普“核武器”吗？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时19分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749097" target="_blank" class="news-link">伊朗退出与美第六轮伊核问题谈判，特朗普：不确定谈判能否举行，承认对以色列袭击知情</a> [10] <font color='grey'>- 18时19分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8kBHNwdCcne" target="_blank" class="news-link">美国大使：1夜躲避了5次</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时19分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8kBA0UOcSsp" target="_blank" class="news-link">全美50州将举行2000场抗议，“特朗普想安心过寿，没门”</a> [6] <font color='grey'>- 18时19分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8kAxUfS0wAA" target="_blank" class="news-link">CNN主播：特朗普像黑手党老大，但欺负不了中国</a> [7] <font color='grey'>- 18时19分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8kAznsIlELW" target="_blank" class="news-link">美国拟打造完整稀土供应链，降低对华依赖</a> [9] <font color='grey'>- 18时19分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.98%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=GAI%E6%AD%8C%E6%89%8B%E7%AC%AC%E4%B8%80%E5%90%8D" target="_blank" class="news-link">GAI歌手第一名</a> [11] <font color='grey'>- 18时19分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=GAI%20%E6%B0%B8%E4%B8%8D%E5%A6%A5%E5%8D%8F" target="_blank" class="news-link">GAI 永不妥协</a> [12] <font color='grey'>- 18时19分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28342819&amp;amp;topic_name=%E4%BC%8A%E6%9C%97%E7%96%91%E7%94%A8AI%E4%BC%AA%E9%80%A0%E4%BB%A5%E5%86%9BF35%E6%AE%8B%E9%AA%B8%E5%9B%BE" target="_blank" class="news-link">伊朗疑用AI伪造以军F35残骸图</a> [9] <font color='grey'>- 18时19分</font><br>[douyin] <a href="https://www.douyin.com/hot/2130766" target="_blank" class="news-link">伊朗公布的F35残骸照疑为AI图</a> [15] <font color='grey'>- 18时19分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1916982517266868027" target="_blank" class="news-link">GAI 周延《歌手 2025》第五期演唱《白鸽》夺得冠军，为什么这期能够逆风翻盘？</a> [8] <font color='grey'>- 18时19分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.79%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8kAwhmcLBQD" target="_blank" class="news-link">黄仁勋回应任正非最新讲话</a> [11] <font color='grey'>- 18时19分</font><br>[weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E5%8D%8E%E4%B8%BAPura80%E9%B8%BF%E8%92%99%E7%BA%A2%E5%8C%85%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">华为Pura80鸿蒙红包</a> [28] <font color='grey'>- 18时19分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.4%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2130681" target="_blank" class="news-link">这机器人走路挺利索啊</a> [23] <font color='grey'>- 18时19分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">胖东来 于东来</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">比亚迪 王传福</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">宇树 王兴兴</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>9</td>
+                    <td class="word">稚晖君 智元</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>10</td>
+                    <td class="word">黑神话 冯骥</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>11</td>
+                    <td class="word">哪吒 饺子</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>12</td>
+                    <td class="word">流浪地球 郭帆 三体 刘慈欣</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>13</td>
+                    <td class="word">米哈游 原神 星穹铁道</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>14</td>
+                    <td class="word">京东 刘强东</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>15</td>
+                    <td class="word">字节 张一鸣</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>16</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>17</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>18</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>19</td>
+                    <td class="word">AMD</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>20</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>21</td>
+                    <td class="word">chatgpt openai</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>22</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>23</td>
+                    <td class="word">iphone ipad mac ios</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>24</td>
+                    <td class="word">汽车 自动驾驶 l3</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>25</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>26</td>
+                    <td class="word">科技</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>27</td>
+                    <td class="word">核能</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>28</td>
+                    <td class="word">月球 登月 火星 宇宙 飞船</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>29</td>
+                    <td class="word">马克思</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>30</td>
+                    <td class="word">共产主义</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>31</td>
+                    <td class="word">中国特色化</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>32</td>
+                    <td class="word">共产党</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>33</td>
+                    <td class="word">农民</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>34</td>
+                    <td class="word">工人</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>35</td>
+                    <td class="word">习近平</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>36</td>
+                    <td class="word">李强</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>37</td>
+                    <td class="word">赵乐际</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>38</td>
+                    <td class="word">王沪宁</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>39</td>
+                    <td class="word">蔡奇</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>40</td>
+                    <td class="word">丁薛祥</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>41</td>
+                    <td class="word">李希</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>42</td>
+                    <td class="word">马兴瑞</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>43</td>
+                    <td class="word">王毅</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>44</td>
+                    <td class="word">尹力</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>45</td>
+                    <td class="word">石泰峰</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>46</td>
+                    <td class="word">刘国中</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>47</td>
+                    <td class="word">李干杰</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>48</td>
+                    <td class="word">李书磊</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>49</td>
+                    <td class="word">李鸿忠</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>50</td>
+                    <td class="word">何卫东</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>51</td>
+                    <td class="word">何立峰</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>52</td>
+                    <td class="word">张又侠</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>53</td>
+                    <td class="word">张国清</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>54</td>
+                    <td class="word">陈文清</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>55</td>
+                    <td class="word">陈吉宁</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>56</td>
+                    <td class="word">陈敏尔</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>57</td>
+                    <td class="word">袁家军</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>58</td>
+                    <td class="word">黄坤明</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>59</td>
+                    <td class="word">刘金国</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>60</td>
+                    <td class="word">王小洪</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+            </table>
+        </body>
+        </html>
+        
